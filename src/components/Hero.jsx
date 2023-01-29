@@ -15,7 +15,7 @@ const Hero = () => {
     <div className=' top-20 relative bg-white-0 w-full h-[9rem] justify-center font-bold   text-lightdark-0  '>
         <div className='flex justify-between mx-28 top-6 relative text-center content-center'>
         <div className='flex flex-col mr-3 relative cursor-pointer '>
-            <img src={grocery} alt ='Grocery Image'  width={50} className='m-auto'/>
+            <img src={grocery} alt ='Grocery'  width={50} className='m-auto'/>
             <button>Grocery</button></div>
         <div className='flex flex-col mr-3 cursor-pointer'>
             <img src={Mobiles}   width={50} className='m-auto'/>
