@@ -1,23 +1,5 @@
 import React from 'react' 
-
-const itemsImage = [
-  {
-    title:'Best of Electronics',
-    image: require('../images/electro.png')
-  },
-  {
-    title:'Beauty, Food, Toys & more',
-    image: require('../images/toy.png')
-  },
-  {
-    title:'Home & Kitchen Essentials',
-    image: require('../images/furniture.png')
-  },
-  {
-    title:'Fashion Top Deals',
-    image: require('../images/fashions.png')
-  }
-]
+ 
  
 const ItemCard = (item) => { 
   console.log(item) 
