@@ -1,2 +1,2 @@
-## Hi there, this a side project done during the time of learing reactjs.
-Technolodies used ReactJs and TailwindCSS
+## Hi there, this is a side project done during the time of learing reactjs.
+Technologies used ##ReactJs and #TailwindCSS
