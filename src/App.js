@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from './components/Hero';
+import HomeCard from './components/HomeCard';
+import ItemCard from './components/ItemCard'; 
+import Navbar from './components/Navbar'; 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import itemsImage from './lists/ImageList';
+function App() { 
+  return ( 
+    <div className='flex flex-col'>
+      <div className=' fixed z-[50]'><Navbar /> </div>
+      <div><Hero /> </div>
+      <div><HomeCard></HomeCard></div>  
+      <div>{itemsImage.map((item) => <ItemCard key= {item.id}item = {item}></ItemCard>)}</div>
+      
     </div>
   );
 }
