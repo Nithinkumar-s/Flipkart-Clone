@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { FiPlus,FiSearch } from "react-icons/fi"; 
-import { FaShoppingCart } from "react-icons/fa";
+import { FiPlus,FiSearch } from "react-icons/fi";  
+import { BsCartFill } from "react-icons/bs";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 import LogIn from './LogIn';
 import { MdClose } from "react-icons/md";
@@ -39,7 +39,7 @@ const Navbar = () => {
         <button className='m-3'>Become a Seller</button>
         <button className='m-3'>More</button>
         <div className='flex flex-row'>
-        <FaShoppingCart className=' mt-4 mr-0 ml-2'></FaShoppingCart>
+        <BsCartFill className=' mt-4 mr-0 ml-2'></BsCartFill>
         <button className='m-3 ml-1'>Cart</button>
         </div>
 

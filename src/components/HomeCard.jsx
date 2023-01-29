@@ -1,5 +1,5 @@
-import React,{useState} from 'react'; 
-import { FaArrowAltCircleLeft,FaArrowAltCircleRight } from "react-icons/fa"; 
+import React,{useState} from 'react';   
+import { BsFillArrowLeftSquareFill,BsFillArrowRightSquareFill } from "react-icons/bs";
 
 const HomeCard = () => { 
      
@@ -52,9 +52,9 @@ const HomeCard = () => {
         <div style={{backgroundImage: `url(${cards[currentIndex].url})`}} className='w-full h-full bg-center bg-cover duration-500 relative'></div>
         <div className='text-white-0 hidden group-hover:block'>
             <div className='absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 p-2 cursor-pointer'>
-                <FaArrowAltCircleLeft size={40} onClick={prevSlide}></FaArrowAltCircleLeft></div>
+                <BsFillArrowLeftSquareFill size={40} onClick={prevSlide}></BsFillArrowLeftSquareFill></div>
             <div className='absolute top-[50%] -translate-x-0 -translate-y-[50%] right-5 p-2 cursor-pointer'> 
-            <FaArrowAltCircleRight size={40} onClick={nextSlide}></FaArrowAltCircleRight></div> 
+            <BsFillArrowRightSquareFill size={40} onClick={nextSlide}></BsFillArrowRightSquareFill></div> 
         </div> 
     </div>
   )
